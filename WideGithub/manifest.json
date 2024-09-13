@@ -1,0 +1,18 @@
+{
+  "name": "W I D E Github",
+  "description": "Make GitHub pull requests wide",
+  "manifest_version": 3,
+  "version": "0.1",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "W I D E"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
+
+
+
+
